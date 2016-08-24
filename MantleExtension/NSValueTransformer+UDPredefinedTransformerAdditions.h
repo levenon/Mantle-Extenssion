@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Mantle/Mantle.h>
 
 extern NSString * const UDDateTimeValueTransformerName; // yyyy-MM-dd HH:mm:ss
 
