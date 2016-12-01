@@ -1,5 +1,5 @@
 //
-//  NSValueTransformer+MTLTPredefinedTransformerAdditions.m
+//  NSValueTransformer+MTLCustomPredefinedTransformerAdditions.m
 //  MantleExtension
 //
 //  Created by Marke Jave on 16/6/13.
@@ -8,7 +8,7 @@
 
 #import <objc/runtime.h>
 
-#import "NSValueTransformer+MTLPredefinedTransformerAdditions.h"
+#import "NSValueTransformer+MTLCustomPredefinedTransformerAdditions.h"
 #import "MTLJSONAdapter+Categories.h"
 
 NSString * const MTLDateTimeValueTransformerName = @"MTLDateTimeValueTransformerName";
@@ -36,7 +36,7 @@ NSString * const MTLAnyValueInSetTransformerName = @"MTLAnyValueInSetTransformer
 @implementation MTLAnyValueTransformer
 @end
 
-@implementation NSValueTransformer (MTLPredefinedTransformerAdditions)
+@implementation NSValueTransformer (MTLCustomPredefinedTransformerAdditions)
 
 #pragma mark Category Loading
 

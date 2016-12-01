@@ -1,5 +1,5 @@
 //
-//  NSValueTransformer+MTLTPredefinedTransformerAdditions.h
+//  NSValueTransformer+MTLCustomPredefinedTransformerAdditions.h
 //  MantleExtension
 //
 //  Created by Marke Jave on 16/6/13.
@@ -17,7 +17,7 @@ extern NSString * const MTLTimeValueTransformerName; // HH:mm:ss
 
 extern NSString * const MTLAnyValueInSetTransformerName; // array set dictionay nsindex
 
-@interface NSValueTransformer (MTLPredefinedTransformerAdditions)
+@interface NSValueTransformer (MTLCustomPredefinedTransformerAdditions)
 
 + (NSValueTransformer<MTLTransformerErrorHandling> *)mtl_dateTransformerWithDateFormat:(NSString *)dateFormat;
 
